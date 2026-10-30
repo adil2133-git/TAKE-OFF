@@ -1,14 +1,14 @@
-let success = false
+function getUser(success) {
+    return new Promise((resolve, reject) => {
+        if (success) {
+            resolve("User fetched successfully")
+        } else {
+            reject("Failed to fetch user")
+        }
+    })
+}
 
-const myPromise = new Promise((resolve, reject) => {
-    if(success){
-        resolve("User fetched successfully")
-    }else{
-        reject("Failed to fetch user")
-    }
-})
-
-myPromise
+getUser(true)
     .then((result) => {
         console.log(result)
     })
