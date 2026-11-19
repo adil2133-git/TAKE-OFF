@@ -2,7 +2,9 @@
 // import Users from "./component/fetch"
 
 // import RefCounter from "./component/refCounter"
-import UsersFetch from "./hooks/customHookFetchComponents/users"
+// import UsersFetch from "./hooks/customHookFetchComponents/users"
+import CounterReducer from "./hooks/REDUCER/counterReducer"
+// import Cart from "./hooks/REDUCER/shoppingCart"
 
 // import Counter from "./component/counter"
 
@@ -18,7 +20,9 @@ function App() {
       {/* <RefMount /> */}
       {/* <Counter /> */}
       {/* <RefCounter /> */}
-      <UsersFetch />
+      {/* <UsersFetch /> */}
+      {/* <Cart /> */}
+      <CounterReducer />
       
     </>
   )
