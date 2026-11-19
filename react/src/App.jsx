@@ -1,7 +1,8 @@
 // import AsyncUsers from "./component/asyncfetch"
 // import Users from "./component/fetch"
 
-import RefCounter from "./component/refCounter"
+// import RefCounter from "./component/refCounter"
+import UsersFetch from "./hooks/customHookFetchComponents/users"
 
 // import Counter from "./component/counter"
 
@@ -16,7 +17,9 @@ function App() {
       {/* <AsyncUsers /> */}
       {/* <RefMount /> */}
       {/* <Counter /> */}
-      <RefCounter />
+      {/* <RefCounter /> */}
+      <UsersFetch />
+      
     </>
   )
 }
